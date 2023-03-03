@@ -1,26 +1,25 @@
 .navbar-nav li a {
-    font-size: 17px;
+  font-size: 17px;
 }
 .navbar-brand {
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 /* cards */
 .card {
-    transition:0.5s ease;
+  transition: all 0.5s ease;
 }
-.card:hover{
-    background-color: #272727;
-    color:white;
-    box-shadow: 5px 5px 10px #666767
+.card:hover {
+  transform: scale(1.1);
+  background-color: #272727;
+  color: white;
+  box-shadow: 5px 5px 10px #666767;
 }
-.card-img-top{
-    width:150px;
-    height:100px;
-  
+.card-img-top {
+  width: 150px;
+  height: 100px;
 }
 .card-text {
-    
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-  }
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
