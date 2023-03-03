@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div className="container-fluid py-2">
+        <div className="container py-2">
           <NavLink className="navbar-brand mx-auto fw-bold" to="/">
             SMART MART
           </NavLink>
