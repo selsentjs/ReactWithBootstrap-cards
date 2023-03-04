@@ -1,0 +1,18 @@
+.card {
+  transition: all 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+  background-color: #272727;
+  color: white;
+  box-shadow: 5px 5px 10px #666767;
+}
+.card-img-top {
+  width: 250px;
+  height: 200px;
+}
+.card-text, .card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
